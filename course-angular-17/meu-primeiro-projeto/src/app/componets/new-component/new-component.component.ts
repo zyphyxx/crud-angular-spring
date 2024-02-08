@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './new-component.component.html',
-  styleUrl: './new-component.component.scss'
+  styleUrl: './new-component.component.scss',
+  styles: ['h2 {color: purple;}']
 })
 export class NewComponent{
 
